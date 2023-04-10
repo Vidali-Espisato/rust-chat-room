@@ -20,7 +20,8 @@ struct Message {
     pub room: String,
     #[field(validate = len(..20))]
     pub username: String,
-    pub message: String
+    pub message: String,
+    pub avatar_style: String
 }
 
 
